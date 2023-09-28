@@ -78,7 +78,7 @@
       if (solveSquare())
         setTimeout(() => {
           solveSquares();
-        }, 50 + Math.random() * 150);
+        }, 150 + Math.random() * 50);
     };
 </script>
 
